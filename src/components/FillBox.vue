@@ -3,7 +3,7 @@
     <div class="wrapper" :style="{ 'margin-top': drainHeight - drainOffset  + 'px'}">
       <div class="relative  w-auto  bg-white border-4 border-white rounded min-h-[150px] h-full min-w-max -rotate-6 progress-badge " :style="{ transform: 'rotate('+ rotation+'deg)'}" ref="badge" :data-completion="fillAmount">
         <div class="relative overflow-visible">
-          <div class="absolute  w-3 ml-[0.4px] overflow-hidden bg-transparent line" :style="{ 'margin-left': drain + drainUnit, 'top': '-' + drainHeight + 'px', 'height': drainHeight + 40 + 'px'}"  ref="line" :id="'line' + id">
+          <div class="absolute  w-3 ml-[0.4px] overflow-hidden bg-transparent line" :style="{ 'margin-left': drain + drainUnit, 'top': '-' + drainHeight + 'px', 'height': drainHeight + 80 + 'px'}"  ref="line" :id="'line' + id">
             <span class="relative invisible fill-line" ></span>
           </div>
         </div>

@@ -10,7 +10,7 @@
         <p>And another one.</p>
       </template>
     </FillBox>
-    <FillBox style="width: 1000px; margin-left: 30%; transform: translateX(-50%);" :drainHeight="200" :drain="200" :id='2' :fillAmount="120" :rotation="6" :leftOpen="true">
+    <FillBox style="width: 1000px; margin-left: 30%; transform: translateX(-50%);" :drainHeight="180" :drain="200" :id='2' :fillAmount="120" :rotation="6" :leftOpen="true">
       <template v-slot:default>
         <div class="flex flex-row justify-between">
           <div>
